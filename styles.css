@@ -1,0 +1,76 @@
+body{
+    height: 100%; 
+    font-family: 'arial', serif;
+    background-color: #ab4493; 
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 540px;
+    height: 1260px;
+    margin: 100px auto;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+h1{
+    font-size: 43px;
+    color: #ab4493;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+h2{
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+input{
+    background-color: white;
+    border-radius: 10px;
+    width: 485px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1.1px;
+    border-color: #ab4493;
+    margin-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+textarea{
+  
+    width: 485px;
+    height: 200px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ab4493;
+    border-radius: 10px;
+    border-width: 1.5px;
+    padding-top: 15px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+}
+button{
+    background-color:#ab4493;
+    border-color: #ab4493;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 6px;
+    height: 50px;
+    width: 502px;
+    margin-bottom: 20px;
+
+}
+samp{
+color: #ab4493;
+
+}

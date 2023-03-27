@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JANET ÑOPE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> 
+<div class="form">
+ <div class="formulario">
+    <form>
+    <h1>Formulario de contacto</h1>
+    <h2>Escríbemos y en breve los pondremos en contacto contigo</h2>
+
+    <form action="messagesubmit.html" method="post">
+
+        <p>
+            <label id="name" class="colocar_name">Nombre 
+                <samp class="obigatorio">*</samp></label>
+            <input type="text" name="introducir_name" id="name" required="obigatorio" placeholder="Escribe tu nombre">
+        </p>
+
+        <p>
+            <label id="email" class="colocar_email">Email
+                <samp class="obigatorio">*</samp></label>
+                <input type="text" name="introducir_email" id="email" required="obigatorio" placeholder="Escribe tu Email">      
+        </p>
+
+        <p>
+            <label id="telefono" class="colocar_telefono" >Teléfono
+                <samp class="obigatorio">*</samp></label>
+                <input type="tel" name="introducir_telefono" id="telefono" required="obigatorio" placeholder="Escribe tu teléfono">
+        </p>
+
+        <p>
+            <label id="web">Sitio web</label>
+            <input type="url" name="introducir_web" id="web" placeholder="Escribe la URL de tu web">
+        </p>
+
+        <p>
+            <label id="asunto" class="colocar_asunto">Asunto
+                <samp class="obigatorio">*</samp></label>
+                <input type="text" name="introducir_asunto" id="asunto" required="obigatorio" placeholder="Escribe un asunto">
+        </p>
+
+        <p>
+            <label id="mensaje" class="colocar_mensaje">Mensaje
+                <samp class="obigatorio">*</samp>
+                <textarea type="text" class="introducir_mensaje" id="mensaje" required="obigatorio" placeholder="Deja aqui tu comentario..."></textarea>
+            </label>
+            </p>
+
+    
+
+        <p>
+            <button type="submit" name="enviar_f" id="enviar">ENVIAR</button>
+        </p> 
+
+        <p class="comentario">
+            <samp class="obigatorio">*</samp>los campos son obligatorios.
+        </p> 
+        
+        
+
+ </form>
+</div>   
+</div>
+   
+
+</body>
+</html>
